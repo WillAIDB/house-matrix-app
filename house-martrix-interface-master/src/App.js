@@ -29,7 +29,7 @@ class App extends Component {
     return (
      
       <div className="App">
-         <h1>House Matrix</h1>
+        <h1 className="text-4xl font-bold mb-4">House Matrix</h1>
         <CardDeck cards={this.state.cards} shiftCard={this.shiftCard.bind(this)} />
         <Buttons cards={this.state.cards} shiftCard={this.shiftCard.bind(this)} />
       </div>
